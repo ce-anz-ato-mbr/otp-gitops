@@ -21,13 +21,15 @@ spec:
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
+  annotations:
+    apps.open-cluster-management.io/reconcile-rate: medium
   name: cp4ba-aws
   namespace: openshift-gitops 
   labels:
     app: bootstrap-cp4ba-aws
 spec:
-  type: GitHub
-  pathname: https://github.com/ce-anz-ato-mbr/otp-gitops.git
+  type: Git
+  pathname: 'https://github.com/ce-anz-ato-mbr/otp-gitops.git'
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
