@@ -19,7 +19,7 @@ spec:
     helm:
       values: |
           channel: stable-4.8
-          sizeGiB: 512
+          sizeGiB: 256
           storageClass: gp2 
           argo:
             namespace: openshift-gitops
