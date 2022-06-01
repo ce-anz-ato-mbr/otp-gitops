@@ -43,7 +43,7 @@ metadata:
   name: bootstrap-cp4ba-aws-subscription-1
   namespace: openshift-gitops
 spec:
-  channel: openshift-gitops/cp4ba-aws
+  channel: openshift-gitops/bootstrap-cp4ba-aws
   placement:
     placementRef:
       kind: PlacementRule
