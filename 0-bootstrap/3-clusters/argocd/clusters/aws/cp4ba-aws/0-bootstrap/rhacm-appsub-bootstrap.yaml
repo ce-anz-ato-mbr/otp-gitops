@@ -23,8 +23,8 @@ kind: Channel
 metadata:
   annotations:
     apps.open-cluster-management.io/reconcile-rate: medium
-  name: bootstrap-cp4ba-aws
-  namespace: openshift-gitops 
+  name: bootstrap-cp4ba-aws-channel
+  namespace: cp4ba-aws
   labels:
     app: bootstrap-cp4ba-aws
 spec:
@@ -45,7 +45,7 @@ metadata:
   name: bootstrap-cp4ba-aws-subscription-1
   namespace: openshift-gitops
 spec:
-  channel: openshift-gitops/bootstrap-cp4ba-aws
+  channel: cp4ba-aws/bootstrap-cp4ba-aws-channel
   placement:
     placementRef:
       kind: PlacementRule
