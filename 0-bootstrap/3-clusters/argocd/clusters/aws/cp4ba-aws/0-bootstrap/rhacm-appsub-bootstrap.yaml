@@ -36,7 +36,7 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: master
-    apps.open-cluster-management.io/git-path: 3-clusters/argocd/clusters/aws/cp4ba-aws/0-bootstrap/bootstrap.yaml
+    apps.open-cluster-management.io/git-path: 0-bootstrap/3-clusters/argocd/clusters/aws/cp4ba-aws/0-bootstrap/bootstrap.yaml
     apps.open-cluster-management.io/reconcile-option: merge
     argocd.argoproj.io/sync-wave: "100"
     helm.sh/hook-weight: "100"
