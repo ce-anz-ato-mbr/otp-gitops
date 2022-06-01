@@ -1,16 +1,10 @@
 resources:
- # Console Banner
  - argocd/consolenotification.yaml
- 
  - argocd/namespaces/namespace-sealed-secrets.yaml
-
  - argocd/namespaces/namespace-openshift-storage.yaml
  #- argocd/storage.yaml
- 
- #- argocd/machinesets.yaml
+ - argocd/machinesets.yaml
  #- argocd/infraconfig.yaml
- 
- # Console link
  - argocd/consolelink.yaml
 
 patches:
