@@ -24,7 +24,7 @@ metadata:
   name: cp4ba-aws
   namespace: openshift-gitops 
   labels:
-    app: cp4ba-aws
+    app: bootstrap-cp4ba-aws
 spec:
   type: GitHub
   pathname: https://github.com/ce-anz-ato-mbr/otp-gitops.git
