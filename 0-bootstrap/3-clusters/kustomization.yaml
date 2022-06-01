@@ -17,6 +17,7 @@ resources:
  ## Examples have been provided
 
  ### AWS
+ #- argocd/clusters/aws/cp4ba-aws.yaml
  #- argocd/clusters/aws/aws0.yaml
  #- argocd/clusters/aws/aws1.yaml
  #- argocd/clusters/aws/aws2.yaml
