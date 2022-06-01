@@ -23,7 +23,7 @@ kind: Channel
 metadata:
   annotations:
     apps.open-cluster-management.io/reconcile-rate: medium
-  name: cp4ba-aws
+  name: bootstrap-cp4ba-aws
   namespace: openshift-gitops 
   labels:
     app: bootstrap-cp4ba-aws
