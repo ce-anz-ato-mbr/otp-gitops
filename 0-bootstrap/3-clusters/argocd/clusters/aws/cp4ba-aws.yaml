@@ -26,8 +26,8 @@ spec:
         imageName: img4.8.41-x86-64-appsub
 
         clusterSet:
-          name: "multicloud-cluster-set"
-          enabled: false 
+          name: "last-mile-gitops"
+          enabled: true
 
         powerState: Running
 
