@@ -15,7 +15,7 @@ spec:
     server: https://kubernetes.default.svc
   project: infra
   source:
-    path: storage
+    path: storage/ocs
     helm:
       values: |
           channel: stable-4.8
