@@ -18,7 +18,7 @@ spec:
     server: https://kubernetes.default.svc
   project: clusters
   source:
-    path: clusters/deploy/ibmcloud/ibmcloud0
+    path: clusters/ibmcloud/ibmcloud0
     helm:
       values: |
         cluster: ibmcloud0
