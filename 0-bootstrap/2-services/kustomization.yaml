@@ -82,6 +82,8 @@ resources:
  #- argocd/operators/quay-container-security.yaml
  #- argocd/operators/quay-bridge-operator.yaml
 
+ # OpenShift Compliance
+ - argocd/operators/openshift-compliance-operator.yaml
 patches:
 - target:
     group: argoproj.io
