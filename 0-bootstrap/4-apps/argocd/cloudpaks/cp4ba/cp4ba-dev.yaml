@@ -11,7 +11,7 @@ metadata:
 spec:
   destination:
     namespace: openshift-gitops
-    server: https://kubernetes.default.svc
+    server: https://api.cp4ba-aws.mutihybridcloudkitchen.com:6443
   project: applications
   source:
     path: cloudpaks/cp4ba/overlays/dev
