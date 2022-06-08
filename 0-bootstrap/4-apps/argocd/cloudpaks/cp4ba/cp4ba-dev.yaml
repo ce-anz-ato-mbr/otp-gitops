@@ -14,7 +14,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: cloudpaks/cp4ba-dev/overlays/dev
+    path: cloudpaks/cp4ba/overlays/dev
   syncPolicy:
     automated:
       prune: true
