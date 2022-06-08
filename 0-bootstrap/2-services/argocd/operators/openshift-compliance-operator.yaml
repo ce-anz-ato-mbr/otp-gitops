@@ -11,7 +11,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: compliance-operator
+    namespace: openshift-compliance
     server: https://kubernetes.default.svc
   project: services
   source:
