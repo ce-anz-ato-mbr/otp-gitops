@@ -24,6 +24,8 @@ resources:
  - argocd/cloudpaks/cp4ba/cp4ba-dev.yaml 
  #- argocd/cloudpaks/cp4ba/cp4ba-prod.yaml  
 
+ - argocd/cloudpaks/filenet-test/filenet-test.yaml
+
 patches:
 - target:
     group: argoproj.io
