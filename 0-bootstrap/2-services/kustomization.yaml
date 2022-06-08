@@ -83,7 +83,7 @@ resources:
  #- argocd/operators/quay-bridge-operator.yaml
 
  # OpenShift Compliance
-# - argocd/operators/openshift-compliance-operator.yaml
+ - argocd/operators/openshift-compliance-operator.yaml
 patches:
 - target:
     group: argoproj.io
