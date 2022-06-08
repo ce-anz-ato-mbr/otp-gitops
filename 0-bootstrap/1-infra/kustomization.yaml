@@ -35,6 +35,9 @@ resources:
  # Openshift Advanced Cluster Security
  - argocd/namespaces/namespace-openshift-acs.yaml
  
+  # Openshift Compliance
+ - argocd/namespaces/namespace-openshift-compliance.yaml
+
  # IBM Infrastruture Automation aka MCM
  #- argocd/namespaces/namespace-ibm-infra-automation.yaml
  
