@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: apps-cloudpak-cp4ba-dev
+  name: apps-cloudpak-cp4ba-prod
   annotations:
     argocd.argoproj.io/sync-wave: "450"
   labels:
@@ -14,7 +14,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: cloudpaks/cp4ba-dev
+    path: cloudpaks/cp4ba-dev/overlays/prod
   syncPolicy:
     automated:
       prune: true
