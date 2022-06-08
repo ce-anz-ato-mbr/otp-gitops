@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: apps-cloudpak-cp4ba-dev
+  name: apps-cloudpak-cp4ba-fn
   annotations:
     argocd.argoproj.io/sync-wave: "450"
   labels:
