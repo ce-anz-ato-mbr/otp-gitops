@@ -21,10 +21,7 @@ resources:
  ## An example has been provided
  #- argocd/cloudpaks/cp4i/cp4i.yaml
  #- argocd/cloudpaks/cp4ba/cp4ba.yaml  
-# - argocd/cloudpaks/cp4ba/cp4ba-dev.yaml 
- #- argocd/cloudpaks/cp4ba/cp4ba-prod.yaml  
-
-# - argocd/cloudpaks/filenet-test/filenet-test.yaml
+ # - argocd/cloudpaks/filenet-test/filenet-test.yaml
 
 patches:
 - target:
