@@ -34,7 +34,7 @@ resources:
  ### IBM Cloud
  #### IBMCLOUD0
  #- argocd/clusters/ibmcloud/ibmcloud0/ibmcloud0.yaml 
- - argocd/clusters/ibmcloud/cp4ba-ibmcloud.yaml 
+# - argocd/clusters/ibmcloud/cp4ba-ibmcloud.yaml 
 
  # Configure Submariner - Cross Cluster/Cloud communication
  #- argocd/clusters/submariner/create-managed-clusterset.yaml
