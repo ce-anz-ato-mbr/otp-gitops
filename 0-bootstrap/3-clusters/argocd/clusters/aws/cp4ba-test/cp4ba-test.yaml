@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: clusters-cp4ba-dev
+  name: clusters-cp4ba-test
   annotations:
     argocd.argoproj.io/sync-wave: "350"
   labels:
@@ -21,7 +21,7 @@ spec:
     path: clusters/deploy/aws/
     helm:
       values: |
-        cluster: cp4ba-dev
+        cluster: cp4ba-test
         type: aws
         imageName: img4.8.41-x86-64-appsub
 
