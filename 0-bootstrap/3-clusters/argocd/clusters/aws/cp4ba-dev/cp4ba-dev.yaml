@@ -49,7 +49,7 @@ spec:
 
         workers:
           count: 3
-          machineType: c3.xlarge 
+          machineType: m5.xlarge 
         
         network:
           clusterCidr: 10.132.0.0/14

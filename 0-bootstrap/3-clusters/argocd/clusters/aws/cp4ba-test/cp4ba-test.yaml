@@ -32,7 +32,7 @@ spec:
         powerState: Running
 
         provider:
-          region: ap-northeast-1
+          region: eu-west-1
           baseDomain: mutihybridcloudkitchen.com
           aws_access_key_id: AgB6Kd8GAJAaEMbsL7UVBLJtmN0Qd4vrnSxx46PWyCsi16KT6BdkC69r71UchhILGq6p/HWnzSKsSoHcTB/vDe47MqdnTR9FPZ8BDk/emW9tQ8+l2JZhGpmW/v4vSEA2DtXpsWuzEAiLiLlhssRf5nXMXn1qvqrrPeIsqZ8oNj2D4p4Pb65ELS1C/PJHc6YztVhoh8lVxZIGT1dlBSCoXCjZag/r+dr8BXAyy7z27iTSwmJ4/G2JywuJ+Z0rHgWxedX8Vvd59bnybFirbvdGrNCjZvggfuKp2CyBpurhKA4UtFs4+Jhx1l1jjNPjTOP5pOAMqVTjvMIHGSJNQz+Cggv44TDPUMDMs+5MNSiDHFBSo3z8m2QVrdpJBvgeguMgDv6zocb8k0fHM1lBKYdNVoFqMMgkq/LNTeG4KFbNOU/X6pFToXjEZmBroYlvINcXZKNhm8fOx/P0daM3TK2GCTGpRx8BZoqxgot55WFAK9dZ9qa1/EzewfjsgJ6Y2PWFbUwD1LPjmirUrbNsY6OgCDNiIPhCGNcCzjrRRh3s56a7rUhLGlkBI5LzUaELYUW6EtHuOMEeK/iMU4RI2e2d9AGSlJNhWJgL8j5B+/IGVwqb0D4eGoynaYv1lzud7EgQvD0rJ3Ddffob5o+GHoYjZp/RjQmqemr3S92tOYGOCQKynljj6H+W7nCYi1HdHVG1i/eI/kd+6laCL3KO88tdJasFNSKikg==
           aws_secret_access_key: AgAP/nsyjT58t59Sk81vjux7kfFpnY/QU4joz3APGzfKXp2x3TF7iI74dT6ogUmaRS/QV48xY0Bbf2qzzwYpOQ7pAQg60YIW4v5xoWzI3xwsmYtzKYrAI+k2ItXZuu1YYnhobyTDr4naH3imTH2Lb7P0cH1BPl0musLBYcUn9fUKTzDF50bRqlPeY6YyBqoEtgKH3XSF915BjWEEc2tL0xUvpa9wvZO4sjfjK6scWR6XgLqKs1p6HKVASurOlSIuzEYLDH7KGk0ReXjLlAjJuaNUaFWNhdzxhGJaaZDyCNnMoaiF0o4OawEOhdR1twhLL+moa50sZgKNtfYhhRxIZCBX13yoBGEMe781mMuoF2OBF1pFjXUq6vD+YsqnQciHjebzaDDLgdh5O4zffMWnEcBVSMmowE67LLYnlCSdcwWsphoz8mNjpzDUdDpGg/DY9JMHZ2gnqvvp6B7keL0LGrLFiWJJ+DtUO3UJcpQVfpY/+ftlsDPWEOMzsC1edaGm0ZFlS18EvQ3UMRVnysh20N9q6CYiXkS1pQWo2P0RFtw2Hd1bUyZqxrfy/P8g2gobHrMTjVFx2OHyfXD6plgKRFTlL75ZUQyq4bABrdGg7/o61Tyb3V1dtmFVdgr+ciLkLo2Liu7thxKohev/HAVjNkT4l5W1QgTh7pCEC9spsWJ/KvPlv/YfEuumhaGLCZm7G/iUZY+eUN9ddZ8YE4KirPOjy/iB2nyJZHKf1KZrsQDORLanxqlBMg6u
@@ -48,8 +48,8 @@ spec:
           machineType: m5.xlarge
 
         workers:
-          count: 3
-          machineType: c3.xlarge 
+          count: 2
+          machineType: m5.xlarge 
         
         network:
           clusterCidr: 10.132.0.0/14
