@@ -21,11 +21,11 @@ resources:
  - argocd/clusters/aws/cp4ba-aws.yaml
  - argocd/clusters/aws/cp4ba-aws/0-bootstrap/rhacm-appsub-bootstrap.yaml
  # Dev Cluster
- #- argocd/clusters/aws/cp4ba-dev/cp4ba-dev.yaml
+ - argocd/clusters/aws/cp4ba-dev/cp4ba-dev.yaml
  # Test Cluster
- #- argocd/clusters/aws/cp4ba-test/cp4ba-test.yaml
+ - argocd/clusters/aws/cp4ba-test/cp4ba-test.yaml
  # cp4ba-dr
- #- argocd/clusters/aws/cp4ba-dr/cp4ba-dr.yaml 
+ - argocd/clusters/aws/cp4ba-dr/cp4ba-dr.yaml 
  
  #- argocd/clusters/aws/aws0.yaml
  #- argocd/clusters/aws/aws1.yaml
