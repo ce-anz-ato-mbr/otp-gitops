@@ -2,6 +2,7 @@ resources:
  - argocd/consolenotification.yaml
  - argocd/namespaces/namespace-sealed-secrets.yaml
  - argocd/namespaces/namespace-openshift-storage.yaml
+ - argocd/namespaces/namespace-openshift-compliance.yaml
  - argocd/storage.yaml
  - argocd/machinesets.yaml
  - argocd/infraconfig.yaml
