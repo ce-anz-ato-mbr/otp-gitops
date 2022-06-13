@@ -149,7 +149,7 @@ spec:
     server: https://kubernetes.default.svc
   project: services
   source: # repoURL  and targetRevision populated by kustomize patches in 2-services/kustomization.yaml
-    path: 0-bootstrap/2-services
+    path: 0-bootstrap/3-clusters/argocd/clusters/aws/cp4ba-aws/0-bootstrap/2-services
   syncPolicy:
     automated:
       prune: true
