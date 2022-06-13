@@ -1,6 +1,6 @@
 resources:
  # OpenShift Advanced Cluster Security (aka Stackrox)
- - argocd/operators/openshift-acs-operator.yaml
+ #- argocd/operators/openshift-acs-operator.yaml
 
  # OpenShift Compliance
  - argocd/operators/openshift-compliance-operator.yaml
