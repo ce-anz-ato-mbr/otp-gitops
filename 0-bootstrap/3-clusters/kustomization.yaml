@@ -23,7 +23,7 @@ resources:
  # Dev Cluster
  - argocd/clusters/aws/cp4ba-dev/cp4ba-dev.yaml
  # Test Cluster
- - argocd/clusters/aws/cp4ba-test/cp4ba-test.yaml
+ #- argocd/clusters/aws/cp4ba-test/cp4ba-test.yaml
  # cp4ba-dr
  - argocd/clusters/aws/cp4ba-dr/cp4ba-dr.yaml 
  
