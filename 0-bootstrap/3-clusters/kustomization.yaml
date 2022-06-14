@@ -18,8 +18,8 @@ resources:
 
  ### AWS
  #### CP4BA-AWS
- - argocd/clusters/aws/cp4ba-aws.yaml
- - argocd/clusters/aws/cp4ba-aws/0-bootstrap/rhacm-appsub-bootstrap.yaml
+ #- argocd/clusters/aws/cp4ba-aws.yaml
+ #- argocd/clusters/aws/cp4ba-aws/0-bootstrap/rhacm-appsub-bootstrap.yaml
  # Dev Cluster
  #- argocd/clusters/aws/cp4ba-dev/cp4ba-dev.yaml
  # Test Cluster
