@@ -29,7 +29,7 @@ spec:
           name: "last-mile-gitops"
           enabled: true
 
-        powerState: Hibernating
+        powerState: Running
 
         provider:
           region: eu-central-1
